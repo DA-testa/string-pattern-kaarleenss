@@ -16,8 +16,8 @@ def read_input():
         
 
     elif inp[0] == "F":
-        name = inp[1]
-        path = "./tests/" + name
+        #Fname = input()
+        path = "./tests/" + "06"
         with open(path, "r") as file:
             content = file.readlines()
         pattern = content[0].replace('\n', '')
